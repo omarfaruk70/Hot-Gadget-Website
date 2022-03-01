@@ -5,6 +5,7 @@
 }
 .container{
     margin-bottom: 100px;
+      
 }
 .navigation{
     height: 100px;
@@ -29,5 +30,7 @@
     padding: 5px  20px;
     border: none;
     cursor: pointer;
-
+}
+h2, h5{
+    text-align: center;
 }
