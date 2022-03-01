@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-bottom: 100px;
+}
+.navigation{
+    height: 100px;
+}
+.carousel{
+    background-color: rgb(169, 239, 241);
+    border-radius: 10px;
+    background-image: url(bg-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
+  
+}
+.carousel .row{
+    margin: 0 30px;
+}
+.buy-now-button{
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px  20px;
+    border: none;
+    cursor: pointer;
+
+}
