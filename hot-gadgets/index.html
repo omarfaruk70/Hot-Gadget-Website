@@ -10,17 +10,17 @@
 </head>
 <body>
     <!-- Navigation Bar start from here  -->
-<div class=" navigation container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+<div class=" navigation container fixed-top ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-info ">
             <div class="container-fluid">
               <a class="navbar-brand">
-                  <img src="logo.png" alt="navigation logo">
+                  <img style="width: 100px;" src="logo.png" alt="navigation logo">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
@@ -31,7 +31,7 @@
                     <a class="nav-link" href="#">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link"> Contact Us</a>
+                    <a class="nav-link" href="#contact"> Contact Us</a>
                   </li>
                 </ul>
               </div>
@@ -40,6 +40,13 @@
 </div>
     <!-- Navigation Bar end  here  -->
     <!-- carousel start from here  -->
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
 <div class="container carousel">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -53,9 +60,8 @@
                    <div class="col-md-7">
                      <h1> Macbook Pro </h1>
                      <p> The most powerful MacBook Pro ever is here. With the blazing-fast M1 Pro or M1 Max chip </p>
-                     <h2> $2000</h2>
-                     <button class="buy-now-button"> Buy Now>> </button>
-                     
+                     <h2 class="text-start"> $2000</h2>
+                     <button class="buy-now-button"> Buy Now>> </button> 
                   </div>
                    <div class="col-md-5">
                     <img src="banner-products/product-1.png" class="d-block w-100" alt="...">
@@ -67,7 +73,7 @@
                    <div class="col-md-7">
                     <h1> Vodaphone relux cool speech box </h1>
                     <p> This is wide quality speaker . Google also use it . </p>
-                    <h2> $170 </h2>
+                    <h2 class="text-start"> $170 </h2>
                     <button class="buy-now-button"> Buy Now>> </button>
                   </div>
                    <div class="col-md-5">
@@ -80,7 +86,7 @@
                       <div class="col-md-7">
                         <h1>  JBL Charge 3 Waterproof Wireless Bluetooth Speaker </h1>
                      <p> SUper ultra sound quality with per day charging experiences</p>
-                     <h2> $210</h2>
+                     <h2 class="text-start"> $210</h2>
                         <button class="buy-now-button"> Buy Now>> </button>
                       </div>
                       <div class="col-md-5"> 
@@ -109,7 +115,7 @@
       <div class="card-body">
         <h5 class="card-title">iphone 11 Pro</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <h2>$1020</h2>
+        <h2 class="text-start">$1020</h2>
         <button class="buy-now-button"> BUY NOW </button>
     </div>
     </div>
@@ -119,7 +125,7 @@
       <div class="card-body">
         <h5 class="card-title">Samsung Galaxy Note+ </h5>
         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <h2>$1020</h2>
+        <h2 class="text-start">$1020</h2>
         <button class="buy-now-button"> BUY NOW </button>
      </div>
       </div>
@@ -129,7 +135,7 @@
       <div class="card-body">
         <h5 class="card-title">Redmi note 10 pro</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <h2>$1020</h2>
+        <h2 class="text-start">$1020</h2>
         <button class="buy-now-button"> BUY NOW </button>
      </div>
       </div>
@@ -161,7 +167,6 @@
             </div>
             <h2>$1550</h2>
             <button class="buy-now-button">  BUY NOW</button>
-            
           </div>
         </div>
         <div class="col">
@@ -178,35 +183,43 @@
       </div>
     </div>
     <!-- laptop end here -->
-    <!-- catagories start from here -->
+    <!-- catagories start from here --> 
   <div class="container catagories">
+    <h1 style="color: rgb(255, 72, 0);">catagories</h1>
     <div class="row justify-contents-center">
       <div class="col-md-6 d-flex">  
-        <div class="col-md-3  align-items-center"> 
+        <div class="col-md-3  align-items-center" style="margin-left: 100px;"> 
           <img style="width: 100px; margin-top: 80%;" src="Categories/bag.png" alt="">
           <h1>Bag</h1>
         </div>
       <div> 
-        <div class="col-md-3   align-items-space-between">
+        <div class="col-md-3   align-items-space-between" style="margin-left: 100px;">
           <img style="margin-top: 100%;" src="Categories/perfume.png" alt="">
           <h1>Beauty</h1>
           <img src="Categories/shoe.png" alt="">
           <h1> Shoes</h1>
-          
         </div>
       </div>
-
       </div>
       <div class="col-md-6"> 
         <img style="width: 500px;" src="Categories/pale-order.png" alt="">
       </div>
-      
     </div>
   </div>
-    <!-- catagories end here -->
-    <div class="container footer">
-      <p style="text-align: center;"> &copy; 2022. All right reserved by Omar Faruk </p>
+  <!-- catagories end here --> 
+  <!-- contact start from here -->
+  <div class="container d-flex justify-content-center align-items-center " id="contact">
+<div>
+      <h3> LET'S STAY IN TOUCH</h3>
+      <h6>Get updates sales, specials and more</h6>
+      <input type="mail" class="form-control" placeholder="Enter your  mail">
+      <button class="buy-now-button"> SUBMIT></button>
     </div>
+</div>
+  <!-- contact end here -->
+  <div class="container copyright">
+    <p style="text-align: center;"> &copy; 2022. All right reserved by Omar Faruk </p>
+  </div>
     <!-- javasript start from here  -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
